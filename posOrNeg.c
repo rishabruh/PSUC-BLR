@@ -1,4 +1,5 @@
 #include <stdio.h>
+//using ternary operators
 
 void main(){
   int a;
