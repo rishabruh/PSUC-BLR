@@ -27,5 +27,15 @@ int main(){
     printf("\n");
   }
   //taking principal diagonal
-  for (i=0;i<4)
+  printf("The principal diagonal is:\n");
+  for (i=0;i<4;i++){
+    for (j=0;j<4;j++){
+      if (i==j){
+        printf("%d\t",a[i][j]);
+      }
+      else{
+          continue;
+      }
+    }
+  }
 }

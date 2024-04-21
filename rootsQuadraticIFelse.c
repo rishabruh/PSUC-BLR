@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-void main(){
+int main(){
   float a,b,c,x,discrim,root1,root2,real,imag;
   printf("For equation ax^2 + bx + c =0, write down the values for a,b,c:\n");
   scanf("%f %f %f",&a,&b,&c);
@@ -23,4 +23,5 @@ void main(){
     root1=root2=-b/(2*a);
     printf("The equation has only one real root. It is:\n%f",root1);
   }
+  return 0;
 }
